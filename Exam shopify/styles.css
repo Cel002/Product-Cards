@@ -1,0 +1,123 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #000;
+    }
+    
+    .product-card {
+      width: 100%;
+      max-width: 846px;
+      background-color: white;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    
+    .product-content {
+      padding: 20px;
+      display: flex;
+    }
+    
+    .product-image {
+      width: 180px;
+      margin-right: 20px;
+      display: flex;
+      align-items: center;
+    }
+    
+    .product-image img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .product-details {
+      flex: 1;
+    }
+    
+    .product-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .product-rating {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+    
+    .stars {
+      display: flex;
+      margin-right: 10px;
+    }
+    
+    .star {
+      color: #FFD700;
+      font-size: 24px;
+    }
+    
+    .star.empty {
+      color: #ccc;
+    }
+    
+    .reviews {
+      color: #777;
+    }
+    
+    .product-identifier {
+      color: #777;
+      margin-bottom: 15px;
+      position: absolute;
+    }
+    
+    .product-price {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    
+    .old-price {
+      color: #777;
+      text-decoration: line-through;
+      margin-right: 15px;
+      left: 565px;
+      position: relative;
+    }
+    
+    .current-price {
+      color: #a52a2a;
+      font-size: 32px;
+      font-weight: bold;
+    }
+    
+    .product-actions {
+      display: flex;
+      background-color: #f5f5f5;
+      padding: 15px 0;
+    }
+    
+    .action-button {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      cursor: pointer;
+    }
+    
+    .action-button i {
+      margin-right: 10px;
+    }
+    
+    .ruble {
+      font-weight: normal;
+    }
